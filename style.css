@@ -1,0 +1,395 @@
+body {
+  background-color: black;
+  color: green;
+}
+
+.namehead {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 10%;
+  padding-left: 10px;
+  padding-top: 200px;
+}
+
+.firstpg{
+  background-color: #494949;
+  height: 800px;
+}
+.firstpgtwo{
+  background-color: #E9D5A1;
+  height: 800px;
+}
+.names {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  text-align: center;
+}
+
+.headname {
+  color: white;
+font-family: 'Cabin Sketch', cursive;
+}
+
+.headname1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #FFFFFF;
+  padding-top: 20px;
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid white;
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 100 normal both,
+    blinkTextCursor 50ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 24em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: transparent;
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* second page */
+#secondpg {
+  background-color: #7F7F7F;
+  height: 500px;
+}
+
+.abtimg {
+  width: 300px;
+  height: 300px;
+  border-color: black;
+  background-color: #7F7F7F;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 9%;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.aboutname {
+  display: flex;
+  position: absolute;
+  color: white;
+  text-align: center;
+  left: 1080px;
+  top: 850px;
+  width: 24em;
+  margin: 0 auto;
+font-family: 'Acme', sans-serif;
+}
+
+.box1 {
+  display: flex;
+  position: absolute;
+  background-color: #6D6D6D;
+  height: 200px;
+  width: 800px;
+  top: 950px;
+  left: 750px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.box2 {
+  display: flex;
+  position: absolute;
+  background-color: #5F5F5F;
+  border-bottom: 1px solid black;
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 1px solid black;
+  height: 30px;
+  width: 799px;
+  top: 0px;
+  left: 0px;
+}
+
+.circles {
+  display: flex;
+  position: absolute;
+  bottom: 8px;
+  left: 15px;
+}
+
+.abtme {
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.typabt {
+
+font-family: 'Flamenco', cursive;
+  color: #FFFFFF;
+  position: relative;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid white;
+  font-size: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.anime-typewriter {
+  animation: typewriter 5s steps(3000) 3s 1 normal both,
+    blinkTextCursor 500ms steps(3000) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 50em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: transparent;
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.hfour {
+  margin-bottom: 30px;
+  font-family: 'Bilbo Swash Caps', cursive;
+}
+
+/* thirdpg */
+p {
+  color: white;
+}
+
+#thirdpg {
+  background-color: #1F1F1F;
+  margin-top: 80px;
+  height: 450px;
+  display: block;
+  text-align: center;
+}
+
+.htwo {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Acme', sans-serif;
+}
+
+.html {
+  height: 90px;
+  width: 100px;
+  background-color: #2A2929;
+  border-radius: 10%;
+  margin-right: 15px;
+}
+
+.css3 {
+  height: 90px;
+  width: 100px;
+  background-color: #2A2929;
+  border-radius: 10%;
+  margin-right: 15px;
+}
+
+.JavaScript {
+  height: 90px;
+  width: 100px;
+  background-color: #2A2929;
+  border-radius: 10%;
+  margin-right: 15px;
+}
+
+.bootstrap {
+  height: 90px;
+  width: 100px;
+  background-color: #2A2929;
+  border-radius: 10%;
+  margin-right: 15px;
+}
+
+.Jquery {
+  height: 90px;
+  width: 100px;
+  background-color: #2A2929;
+  border-radius: 10%;
+}
+
+.skimg {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.a {
+  margin-top: 10px;
+}
+
+.b {
+  margin-top: 10px;
+}
+
+.c {
+  margin-top: 10px;
+}
+
+.d {
+  margin-top: 10px;
+}
+
+.f {
+  margin-top: 10px;
+}
+
+.secimg{
+  left: 1250px;
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-color: black;
+  background-color: #7F7F7F;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 9%;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+
+
+/* forthpg */
+
+
+#forthpg {
+  background-color:#7F7F7F;
+  height: 750px;
+  display: block;
+  text-align: center;
+}
+
+.forthpgone{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.procer{
+  color: #CCCCCC;
+}
+
+
+.certification{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-family: 'Maven Pro', sans-serif;
+}
+.Projects{
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/* fifthpg */
+
+
+#fifthpg{
+  background-color:black;
+  height: 300px;
+  display: block;
+  text-align: center;
+}
+
+.Copyright{
+  padding-top: 170px;
+  font-size: 12px;
+}
+
+
+.Contact{
+  color: white;
+  padding-top: 25px;
+  font-family: 'Acme', sans-serif;
+
+}
+
+.conimg{
+padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.forthpgone{
+  font-family: 'Acme', sans-serif;
+}
+
+
+
+/* fifthpg */
+
+
+.workto{
+  font-family: 'Maven Pro', sans-serif;
+  color: white;
+}
+
+.mailimg{
+margin-right: 15px;
+}
+.instagram{
+  margin-right: 15px;
+}
+
+.twitter{
+  margin-right: 15px;
+}
+
+.conimg{
+  display: flex;
+  position: absolute;
+  left: 900px;
+ top: 2600px;
+}
