@@ -21,7 +21,7 @@ body {
   .firstpg{
     background-color: #494949;
     height: 800px;
-    width: 1400px;
+    width: 1440px;
 
   }
 
@@ -29,7 +29,7 @@ body {
 .firstpg{
   background-color: #494949;
   height: 800px;
-  width: 2560px;
+  width: 1440px;
 }
 
 .firstpgtwo{
@@ -96,13 +96,13 @@ font-family: 'Cabin Sketch', cursive;
 #secondpg {
   background-color: #7F7F7F;
   height: 500px;
-  width: 1400px;
+  width: 1440px;
 }
 }
 #secondpg {
   background-color: #7F7F7F;
   height: 500px;
-  width: 2560px;
+  width: 1440px;
 }
 
 
