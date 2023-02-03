@@ -1,3 +1,5 @@
+
+
 body {
   background-color: black;
   color: green;
@@ -13,10 +15,23 @@ body {
   padding-top: 200px;
 }
 
+
+@media(min-width:320px) {
+
+  .firstpg{
+    background-color: #494949;
+    height: 800px;
+    width: 1400px;
+
+  }
+
+}
 .firstpg{
   background-color: #494949;
   height: 800px;
+  width: 2560px;
 }
+
 .firstpgtwo{
   background-color: #E9D5A1;
   height: 800px;
@@ -76,11 +91,36 @@ font-family: 'Cabin Sketch', cursive;
 }
 
 /* second page */
+@media (min-width:320px) {
+
 #secondpg {
   background-color: #7F7F7F;
   height: 500px;
+  width: 1400px;
+}
+}
+#secondpg {
+  background-color: #7F7F7F;
+  height: 500px;
+  width: 2560px;
 }
 
+
+@media (min-width:320px) {
+  .abtimg {
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    background-color: #7F7F7F;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 9%;
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+}
 .abtimg {
   width: 300px;
   height: 300px;
