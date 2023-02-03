@@ -322,7 +322,7 @@ p {
 }
 
 .secimg{
-  left: 1250px;
+  left: 1750px;
   display: flex;
   position: absolute;
   width: 300px;
@@ -430,6 +430,6 @@ margin-right: 15px;
 .conimg{
   display: flex;
   position: absolute;
-  left: 900px;
+  left: 1220px;
  top: 2600px;
 }
